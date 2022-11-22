@@ -14,7 +14,8 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                 echo "test done without report from github"
+                echo "from github"
+                 echo "test done without report "
             }
         }
         stage('Deploy') { 
